@@ -1,0 +1,63 @@
+{
+  "requestId": "EOY2-Trish_30students",
+  "reportName": "IDOES-2300",
+  "reportType": "SeasonalReport",
+  "requestUser": "ORojas@cainc.com",
+  "reportParams": {
+    "academicYear": "year2023-2024",
+    "reportSeason": "EOY",
+    "states": ["NY", "AR"],
+    "accounts": [
+      {
+        "accountId": "ny-atmsd38961",
+        "population": {}
+      },
+      {
+        "accountId": "ar-trish33817",
+        "population": {}
+      }
+    ],
+    "subjects": ["ela", "math"],
+    "elaGrades": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "mathGrades": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "windows": [
+      {
+        "id": "8a99808c84d22f1101856c0615640399",
+        "year": "year2023-2024",
+        "reportWindow": 1,
+        "startDate": "2023-08-06",
+        "endDate": "2023-12-19",
+        "windowType": "AccountDefined"
+      },
+      {
+        "id": "8a99808c84d22f1101856c061564039a",
+        "year": "year2023-2024",
+        "reportWindow": 2,
+        "startDate": "2023-12-20",
+        "endDate": "2024-02-19",
+        "windowType": "AccountDefined"
+      },
+      {
+        "id": "8a99808c84d22f1101856c061564039b",
+        "year": "year2023-2024",
+        "reportWindow": 3,
+        "startDate": "2024-02-20",
+        "endDate": "2024-07-30",
+        "windowType": "AccountDefined"
+      }
+    ],
+    "demographicRefinement": false,
+    "businessRules": {
+      "override": false,
+      "growthMinWeeks": 25
+    },
+    "benchmark": {
+      "enumValue": "NATIONAL",
+      "displayName": "National YTD",
+      "longDisplayName": "National"
+    },
+    "diagnosticLanguage": "ENGLISH",
+    "includeUnenrolled": true,
+    "stateDemographics": []
+  }
+}
